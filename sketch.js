@@ -16,8 +16,8 @@ function draw() {
   fill(cor);
   circle(posicaoHorizontal,posicaoVertical, 50);
   
-  if (mouseX <posicaoHorizontal){
-    posicaoHrizontal= posicaoHorizontal +1;
+  if (mouseX < posicaoHorizontal){
+    posicaoHorizontal= posicaoHorizontal -1;
   }
   
   if (mouseX > posicaoHorizontal ) {
@@ -27,8 +27,8 @@ function draw() {
     if (mouseY > posicaoVertical) {
       posicaoVertical++;
 }
-  if ( mouse Y > posicaoVertical) {
-    posicaoVertical++;
+  if ( mouseY < posicaoVertical) {
+    posicaoVertical--;
     
 }
   
